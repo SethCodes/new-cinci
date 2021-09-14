@@ -1,0 +1,34 @@
+.categoriesSec{
+    background-color: white;
+}
+
+
+.attractionCard{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.attractDiv{
+    width: 65%;
+    margin: 0 0 30px 30px;
+}
+.category__date{
+    display: flex;
+
+}
+.category__date h6{
+    padding-right: 10px;
+}
+.attractionCard h2{
+    width: 85%;
+    padding: 3px 0px 20px 0px;
+}
+
+.col-md-6.col-sm-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+

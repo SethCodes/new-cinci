@@ -1,0 +1,445 @@
+
+                        /*About page*/
+
+#container{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container-1, .container-2, .container-3 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.container-1{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container-4{
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.container-5 {
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 0 0;
+    display: block;
+}
+.container-2, .container-4{
+    background-color: rgb(48, 57, 66);
+}
+.container-3, .container-5{
+    background-color: rgb(27, 33, 39);
+}
+#content4 {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20% 0 20%;
+}
+.content5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20% 0 20%;
+}
+.content1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20% 0 20%;
+    padding-top: 0 !important;
+}
+#content2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+#content2a{
+    width: 50%;
+    padding: 10%;
+}
+#content2b{
+    width: 50%;
+    display: inline-flex;
+    flex-wrap:wrap;
+    align-content: center;
+}
+#imgRow{
+    display: flex;
+    width: 70%;
+}
+#imgRow2{
+    width: 70%;
+    height: 25%;
+    overflow: hidden;
+}
+#img1, #img2{
+    width: 50%;
+    height: auto;
+}
+#img1{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#img2{
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#img3{
+    width: 100%;
+    height: auto;
+}
+#content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    margin: 0 20% 0 20%;
+}
+#cont3h4 {
+    margin-top: 40px;
+}
+#p3{
+    margin-top: 2%;
+    text-align: center;
+}
+
+/* images & text responsive */
+@media (min-width: 500px ) {
+    .container-1, .container-2, .container-3, .container-4, .container-5 {
+        background-position: center center;
+    }
+
+    .content1, .content2, #content4, .content5 {
+        align-items: center;
+        justify-content: center;
+    }
+    #content3 {
+        align-items: center;
+    }
+    .content1{
+        padding-top: 0 !important;
+    }
+}
+
+/* text in containers 1 to 5 */
+h4{
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+h5{
+    color: white;
+    margin-top: 10% !important;
+    font-size:1em !important;
+}
+p{
+    color: white;
+}
+
+#picDiv{
+    width: 10em;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    border-radius: 50%;
+}
+#teamPic{
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+#teamSocial{
+    margin: 7% 3% 0 3%;
+    width: 1em;
+}
+#piCont{
+    color: white;
+}
+i{
+    width: 50px;
+}
+#teaMember{
+    padding: 0;
+}
+#team{
+    margin-top: 5%;
+    width: 100%;
+}
+#content4 {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20% 0 20%;
+}
+
+/* grid container-4 "our picks" pictures */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery__item--1 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.gallery__item--2 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.gallery__item--4 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.gallery__item--5 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.gallery__item--6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+.gallery__item--7 {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+            /* local news API - container 5 */
+
+.card {
+    width: 100%;
+    height: 18em;
+    overflow: hidden;
+}
+.card-body{
+    background-color: rgb(22, 123, 163);
+}
+.card-title{
+    font-size: 15px !important;
+}
+.news{
+    height: 100%;
+}
+#rowNews{
+    width: 100%;
+    margin: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-5b {
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-fluid {
+    max-width: auto;
+    max-height: 65%;
+}
+                /* make page responsive*/
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) {
+    /*container 5*/
+    .container-5 {
+        height: 140vh;
+    }
+    #rowNews{
+        margin-top: 3% !important;
+        height: 100%;
+    }
+    .card {
+        width:90%;
+        /* height: 100%; */
+        text-align: center;
+        margin: auto !important
+    }
+    #column{
+        margin-bottom: 2%;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    /* .img-fluid {
+        max-width: auto;
+        max-height: 65%;
+    } */
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    /*container 5*/
+    .container-5 {
+        height: 140vh;
+    }
+    #rowNews{
+        margin-top: 3% !important;
+        /* height: 100%; */
+    }
+    .card {
+        width:90%;
+        /* height: 100%; */
+        text-align: center;
+        margin: 5% 0 0 5%;
+    }
+    #column{
+        margin-bottom: 2%;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    /*container 3*/
+    .container-3{
+        height: 95vh;
+    }
+    #buttonTeam{
+        margin-top: 3%;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 576px) and (max-width: 767px) {
+    /*container 3*/
+    #teaMember{
+        padding: 0;
+        display: inline-flex;
+        vertical-align: middle;
+    }
+    #teamPic{
+        margin: 3%;
+        vertical-align: middle;
+    }
+    h5{
+        color: white;
+        font-size:1em !important;
+        margin-top: 0 !important;
+        align-items: center;
+        display: flex;
+    }
+    #teamSocial{
+        width: 2em;
+        height: auto;
+        color: white;
+        vertical-align: middle;
+        margin-top: 0;
+    }
+    #piCont{
+        display: flex;
+        height: 100%;
+        vertical-align: middle;
+        margin-left: 5%;
+        align-items: center;
+    }
+    .container-3{
+        height: 185vh;
+    }
+
+    /*container 5*/
+    .container-5 {
+        height: 245vh;
+    }
+    #column{
+        margin-bottom: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        width:90%;
+        /* height: 100%; */
+    }
+}
+
+/* Extra small devices (phones, 575px and down) */
+@media (max-width: 575px) {
+    /*container 3*/
+    #teaMember{
+        padding: 0;
+        display: block;
+    }
+    #teamPic{
+        vertical-align: middle;
+        width: 15em;
+        height: 15em;
+    }
+    h5{
+        color: white;
+        font-size:1.5em !important;
+        margin-top: 3% !important;
+        margin-bottom: 2% !important;
+        align-items: center;
+    }
+    #teamSocial{
+        height: auto;
+        color: white;
+        vertical-align: middle;
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    #piCont{
+        height: 100%;
+        vertical-align: middle;
+        align-items: center;
+        margin: 2% 0 4% 0;
+    }
+    .container-3{
+        height: 300vh;
+    }
+
+    /*container 5*/
+    .container-5 {
+        height: 480vh;
+    }
+    .card {
+        width:70%;
+        /* height: 100%; */
+    }
+    #column{
+        margin-bottom: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}

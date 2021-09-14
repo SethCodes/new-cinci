@@ -1,0 +1,165 @@
+
+                        /*Event page*/
+
+/*container 1 - header events */
+.container-header{
+    width: 100%;
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.contentMain{
+    text-align: center;
+    padding-top: 4em !important;
+    margin: 0 !important;
+}
+h3{
+    width: 6em;
+    font-size: 4em !important;
+    color: rgb(255, 255, 255) !important;
+}
+#evenText{
+    width: 100% !important;
+    /* font-size: 1.7em; */
+    color: rgb(255, 255, 255) !important;
+    /* font-weight: bold; */
+}
+#cinci{
+    color: rgb(85, 136, 248);
+    /* font-size: 1.8em; */
+}
+
+/* container 2 - events */
+#container-event{
+    width: 100%;
+    background-color: rgb(27, 33, 39);
+    padding: 2em;
+}
+
+/*table*/
+#title {
+    padding: 0.5em 0 1em 0;
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+#holidays {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 70%;
+    margin: auto;
+    text-decoration: none;
+}
+#holidays td, #holidays th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#holidays tr:nth-child(even){
+    color: white;
+}
+#holidays tr {
+    color: white;
+}
+#holidays th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+td{
+    text-align: center;
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) {
+    /*container 1 - header events */
+    .container-header{
+        height: 110vh;
+    }
+    h3 {
+        margin-top: 1em !important;
+    }
+    #evenText{
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #cinci{
+        font-size: 1.8em;
+    }
+    /* container 2 - events */
+    .container-event{
+        height: 150vh;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    /*container 1 - header events */
+    .container-header{
+        height: 100vh;
+    }
+    h3 {
+        margin-top: 1em !important;
+    }
+    #evenText{
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #cinci{
+        font-size: 1.8em;
+    }
+    /* container 2 - events */
+    .container-event{
+        height: 150vh;
+    }
+}
+/* Landscape phones and portrait tablets */
+@media (min-width: 576px) and (max-width: 767px) {
+    /*container 1 - header events */
+    .container-header{
+        height: 90vh;
+    }
+    h3 {
+        margin-top: 1em !important;
+        font-size: 3em !important;
+    }
+    #evenText{
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    #cinci{
+        font-size: 1.4em;
+    }
+    /* container 2 - events */
+    .container-event{
+        height: 150vh;
+    }
+}
+/* Extra small devices (phones, 575px and down) */
+@media (max-width: 575px) {
+    /*container 1 - header events */
+    .container-header{
+        height: 70vh;
+    }
+    h3 {
+        margin-top: 1em !important;
+        font-size: 2em !important;
+    }
+    #evenText{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    #cinci{
+        font-size: 1.4em;
+    }
+    /* container 2 - events */
+    .container-event{
+        height: 150vh;
+    }
+}
