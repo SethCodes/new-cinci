@@ -92,6 +92,7 @@ const Navbar = ({ handleLoginClick, handleContactClick }) => {
             </li>
             <li className="nav-item">
               <a
+              href="#"
                 className="nav-link login"
                 aria-current="page"
                 onClick={handleClick}
@@ -101,6 +102,7 @@ const Navbar = ({ handleLoginClick, handleContactClick }) => {
             </li>
             <li className="nav-item">
               <a
+              href="#"
                 className="nav-link contact"
                 aria-current="page"
                 onClick={handleClickB}
