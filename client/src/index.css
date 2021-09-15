@@ -120,7 +120,7 @@ align-items: center;
 
 .form-box{
   margin-top: 10vh;
-  opacity:80%;
+  /* opacity:80%; */
   background: black;
   padding-right: 80px;
   padding-left: 80px;
