@@ -122,6 +122,7 @@ console.log(attractions);
               >
                 <AttractionCard
                   id={attraction.id}
+                  website={attraction.websiteUrl}
                   category={attraction.category}
                   date={attraction.date}
                   title={attraction.title}

@@ -1,11 +1,14 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../css/AttractionDiv.css';
 
 
-const AttractionCard = ({category, date, title, snippet}) => {
+const AttractionCard = ({category, date, title, snippet, website}) => {
     return (
         <div className="attractionCard">
-        <div className="attractDiv">
+        <Link to={{ pathname: `${website}` }} target="_blank">
+        <div className="attractDiv"
+        >
         <div className="category__date">
             <h6  >{category}</h6>
             <h6 >{date}</h6>
@@ -14,6 +17,7 @@ const AttractionCard = ({category, date, title, snippet}) => {
         <p >{snippet}</p>
 
             </div>
+            </Link>
         </div>
     )
 }
