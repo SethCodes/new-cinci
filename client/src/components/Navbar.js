@@ -3,6 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 import axios from "axios";
 
 const Navbar = ({ handleLoginClick, handleContactClick }) => {
+
+
+
   const [weather, setWeather] = useState("");
   const [temp, setTemp] = useState("");
   const [icon, setIcon] = useState("");
@@ -19,7 +22,9 @@ const Navbar = ({ handleLoginClick, handleContactClick }) => {
     setTemp(shortTemp);
   }
 
+
   useEffect(() => {
+
     const getWeather = async () => {
       const url = process.env.REACT_APP_WEATHER_API;
       const res = await axios.get(url);
@@ -39,10 +44,10 @@ const Navbar = ({ handleLoginClick, handleContactClick }) => {
     handleContactClick();
   };
 
-  const toggleClass = () => {
-    const currentState = active;
-    setactive(!active);
-  };
+  // const toggleClass = () => {
+  //   const currentState = active;
+  //   setactive(!active);
+  // };
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -63,6 +68,7 @@ const Navbar = ({ handleLoginClick, handleContactClick }) => {
 
         {/* nav toggler button */}
         <button
+        id="navbar-toggler"
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"

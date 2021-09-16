@@ -7,7 +7,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import images from "../images/carousel11.jpg";
 import image2 from "../images/carousel12.jpg";
 import image3 from "../images/carousel13.jpg";
-import image4 from "../images/carousel14.jpg";
+import image4 from "../images/carousel11.jpg";
 import Image1 from "../media/image1.jpg";
 import Image2 from "../media/image2.jpg";
 import Image3 from "../media/image3.jpg";
@@ -25,9 +25,6 @@ console.log(attractions);
   //get year for articles
   const date = new Date();
   const day = date.getFullYear();
-
- 
-
 
   useEffect(() => {
     const getArticles = async () => {
@@ -55,7 +52,36 @@ console.log(attractions);
         </AliceCarousel>
       </div>
 
-      <div className="categoryChoice text-center">
+      <div className="cats bg-dark">
+        <div className="row cat-row">
+          <div className="col cat text-center">
+          <i class="fas fa-parking fa-3x"></i>
+          <h5 onClick={categoryChange}>Park</h5>
+          </div>
+          <div className="col cat text-center">
+          <i class="fas fa-utensils fa-3x"></i>
+          <h5 onClick={categoryChange}>Food</h5>
+          </div>
+          <div className="col cat text-center">
+          <i class="fas fa-star fa-3x"></i>
+          <h5 onClick={categoryChange}>Activities</h5>
+          </div>
+          <div className="col cat text-center">
+          <i class="fas fa-cocktail fa-3x"></i>
+          <h5 onClick={categoryChange}>NightLife</h5>
+          </div>
+          <div className="col cat text-center">
+          <i class="fas fa-bus-alt fa-3x"></i>
+          <h5 onClick={categoryChange}>Transport</h5>
+          </div>
+          <div className="col cat text-center">
+          <i class="fas fa-feather fa-3x"></i>
+          <h5 onClick={categoryChange} >Art</h5>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="categoryChoice text-center">
         <div className="catOne">
           <i class="fas fa-parking"></i>
           <h1 onClick={categoryChange}>Park</h1>
@@ -80,7 +106,7 @@ console.log(attractions);
           <i class="fas fa-feather"></i>
           <h1 onClick={categoryChange}>Art</h1>
         </div>
-      </div>
+      </div> */}
 
      <div className="container-fluid">
      <div className="row" id="attractRow">

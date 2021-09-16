@@ -31,7 +31,7 @@ const About = () => {
             <div className="container-1" style={{backgroundImage: `url(${imageUrl1})` }}>
                 <div className="content1">
                     <h4 className="center">About us</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quasi, vitae vero neque quis facere omnis, quibusdam est, delectus provident amet!</p>
+                    <p>Welome to the 4 Horseman of Cincy. We are a local Travel and Tourisum agency here to help Visotor's and local's discover the hidden gems in the Queen City.</p>
                 </div>
             </div>
 
@@ -41,7 +41,7 @@ const About = () => {
                 <div className="row" id="content2">
                     <div className="col col-sm-3 col-md-4 col-lg-4" id="content2a">
                         <h4 className="center">Our mission</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quasi, vitae vero neque quis facere omnis, quibusdam est, delectus provident amet!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quasi, vitae vero neque quis facere omnis, quibusdam est, delectus provident amet!</p>
+                        <p>Our Mission at the 4 Horseman of Cincy is to provide visitors and locals with a uniqe perspective on Events,Attractions,Food,Nightlife and more in the Queen City. Our mission is to highlight the diverse culture that our City has to offer. "Who Dey"  </p>
                     </div>
                     <div className="col col-sm-3 col-md-4 col-lg-4" id="content2b">
                         <div id="imgRow">
@@ -65,27 +65,33 @@ const About = () => {
                 </div>
                 <div id="team" className= "row">
                     <div className="col-md-3 col-sm-12 center" id="teaMember">
-                        <img src={ Horseman1 } alt="seth" id="teamPic"/>
+                        {/* <img src={ Horseman1 } alt="seth" id="teamPic"/> */}
+                        <p className="teamPic" id="sethPic"></p>
                         <h5>Seth Stephens</h5>
                         <a target="blank" href="https://www.linkedin.com/in/seththedev/" id="piCont"><i id="teamSocial"  class="fab fa-linkedin-in fa-2x"></i></a>
                         <a target="blank" href="https://www.instagram.com/seththedev/" id="piCont"><i id="teamSocial" class="fab fa-instagram fa-2x"></i></a>
                         <a target="blank" href="https://github.com/SethCodes" id="piCont"><i id="teamSocial" class="fab fa-github fa-2x"></i></a>
                     </div>
                     <div className="col-md-3 col-sm-12 center" id="teaMember">
-                        <img src={ Horseman2 } alt="guille" id="teamPic"/>
+                        {/* <img src={ Horseman2 } alt="guille" id="teamPic"/> */}
+                        <p className="teamPic" id="guillermoPic"></p>
                         <h5>Guillermo Cabral</h5>
                         <a target="blank" href="https://www.linkedin.com/in/guillecabral/" id="piCont"><i id="teamSocial"  class="fab fa-linkedin-in fa-2x"></i></a>
                         <a target="blank" href="https://twitter.com/GuillermoECabr1" id="piCont"><i id="teamSocial" class="fab fa-twitter fa-2x"></i></a>
                         <a target="blank" href="https://github.com/GuilleCabral?tab=repositories" id="piCont"><i id="teamSocial" class="fab fa-github fa-2x"></i></a>
                     </div>
                     <div className="col-md-3 col-sm-12 center" id="teaMember">
-                        <img src={ Horseman3 } alt="todd" id="teamPic"/>
+                        {/* <img src={ Horseman3 } alt="todd" id="teamPic"/> */}
+                        <p className="teamPic" id="ToddPic"></p>
+
                         <h5>Todd Cunningham</h5>
                         <a target="blank" href="https://www.linkedin.com/in/andrew-cunningham-b2362118b/" id="piCont"><i id="teamSocial"  class="fab fa-linkedin-in fa-2x"></i></a>
                         <a target="blank" href="https://github.com/tacunninghan4" id="piCont"><i id="teamSocial" class="fab fa-github fa-2x"></i></a>
                     </div>
                     <div className="col-md-3 col-sm-12 center" id="teaMember">
-                        <img src={ Horseman4 } alt="kushal" id="teamPic"/>
+                        {/* <img src={ Horseman4 } alt="kushal" id="teamPic"/> */}
+                        <p className="teamPic" id="KushalPic"></p>
+
                         <h5>Kushal Patel</h5>
                         <a target="blank" href="https://www.linkedin.com/in/kushal-patel-4a7898215/" id="piCont"><i id="teamSocial"  class="fab fa-linkedin-in fa-2x"></i></a>
                         <a target="blank" href="https://github.com/kushalpatel42" id="piCont"><i id="teamSocial" class="fab fa-github fa-2x"></i></a>
@@ -105,7 +111,7 @@ const About = () => {
             <div className="container-4" >
                 <div className="" id="content4">
                     <h4 className="center" id="cont4h4">Our Top Picks</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quasi, vitae vero neque quis facere omnis, quibusdam est, delectus provident amet!</p>
+                    <p>Here are a few suggestions that will make your visit to the Queen City a unique and memorable experience.</p>
                 </div>
                 <div className= "container">
                     <div class="gallery">
@@ -139,7 +145,7 @@ const About = () => {
             <div className="container-5" >
                 <div className="content5">
                     <h4 className="center">Local articles</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quasi, vitae vero neque quis facere omnis, quibusdam est, delectus provident amet!</p>
+                    <p>Headlines Nationally and locally catch up with the news. Checkout what's going on with our local sports teams and other city events.</p>
                 </div>
                 <div className="container-5b">
                      <Headlines />

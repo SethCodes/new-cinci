@@ -10,7 +10,7 @@ const AttractionCard = ({category, date, title, snippet}) => {
             <h6  >{category}</h6>
             <h6 >{date}</h6>
         </div>
-        <h2 >{title}</h2>
+        <h2 id="titleBlog">{title}</h2>
         <p >{snippet}</p>
 
             </div>

@@ -443,3 +443,75 @@ i{
         justify-content: center;
     }
 }
+
+/*seth*/
+#sethPic:hover{
+    background-image: url('../media/seth.jpg');
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+#sethPic{
+    background-image: url('../media/horseman1.png');
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+}
+/* guillermo */
+#guillermoPic:hover{
+    background-image: url('../media/guillermo.png');
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+#guillermoPic{
+    background-image: url('../media/horseman2.png');
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    image-rendering: -webkit-optimize-contrast;
+
+
+}
+/* Todd */
+#ToddPic:hover{
+    background-image: url('../media/todd2.jpg');
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+#ToddPic{
+    background-image: url('../media/horseman3.png');
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+}
+/* kushal */
+#KushalPic:hover{
+    background-image: url('../media/kushmal.jpg');
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+#KushalPic{
+    background-image: url('../media/horseman4.png');
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+}    
+
+
+
+
