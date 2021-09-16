@@ -1,7 +1,8 @@
 import React from 'react';
 import './Event.css';
 import EventBckg from '../media/eventBckg.jpg'
-import Table from './table.js';
+import Table from './table';
+
 
 
 const Event = () => {
